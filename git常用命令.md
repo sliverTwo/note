@@ -2,7 +2,9 @@
 	初始化 git init
 	提交至暂存区  git add 文件或目录名 eg：git add readme.txt git add .
 	提交新的版本 git commit (其作用是将暂存区的数据提交到版本库,所以在执行此命令前先执行git add)
-	查看日志 git log 格式化查看 git log --pretty=oneline
+	查看日志 git log
+	格式化查看日志 git log --pretty=oneline
+	指定查看日志条数 git log log -条数
 	查看状态 git status
 	
 	版本管理相关:
@@ -31,7 +33,29 @@
 	状态恢复同时删除stash git stash pop
 	
 	从版本库中删除文件 git rm 文件名(删除后需提交)
+	
+	标签相关
+	当前提交打标签 git tag 标签名
+	指定提交打标签 git tag  标签名 提交id
+	查看已有标签 git tag
+	查看标签详情 git show 标签名
+	带说明的标签 git tag -a 标签名 -m 说明 [提交id]
+	删除标签 git tag -d 标签名
+	推送标签导远程服务器 git push 远程库别名 标签名 
+	一次性全部推送  git push 标签名 --tags
+	删除远程标签 先删除本地标签 git tag -de 标签名 然后执行 git push 远程库别名 :refs/tags/标签名
+	
+	个性化配置
+	配置全局用户名 git config --global user.name "你的名字"
+	配置全局邮箱 git config --global user.email "你的邮箱"
+	开启颜色对比 git config --global color.ui true
+	别名设置 git config --global alias 别名 命令名
+	
+	文件忽略相关
+	强行添加忽略清单上的文件 git  add -f 文件
+	查看忽略规则 git check-ignore -v 文件
 ## 2. git一些概念
+	项目配置文件路径 .git/config
 	工作区（Working Directory）git当前工作目录
 	版本库（Repository） 隐藏的.git目录
 	暂存区 git add后文件存储的区域
@@ -50,6 +74,8 @@
 	e.g git clone git@github.com:sliverTwo/note.git
 	查看远程库信息:
 	git remote -v
+	删除指定远程库连接信息
+	git remote rm 远程库别名
 	创建分支并关联远程分支
 	git checkout -b 分支名 远程库/分支名
 	git checkout -b dev origin/dev
@@ -60,7 +86,8 @@
 	 git rebase 
 	
 链接:  
+[文件忽略参考](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758404317281e54b6f5375640abbb11e67be4cd49e0000)
 [密钥使用参考链接](参考: [廖雪峰的教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000))
+[git服务器搭建](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137583770360579bc4b458f044ce7afed3df579123eca000)
 [廖雪峰的git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)  
 [git使用说明书](https://git-scm.com/book/zh/v2)
-	
