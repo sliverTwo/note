@@ -1,7 +1,9 @@
 ## 1.git常用命令
 	初始化 git init
 	提交至暂存区  git add 文件或目录名 eg：git add readme.txt git add .
-	提交新的版本 git commit (其作用是将暂存区的数据提交到版本库,所以在执行此命令前先执行git add)
+	提交新的版本 git commit (其作用是将暂存区的数据提交到版本库,所以在执行此命令前先执行git add) -m 注释
+	提交版本（自动添加修改的文件至暂缓区） git commit -a -m 注释
+	修改上次提交 git commit --amend
 	查看日志 git log
 	格式化查看日志 git log --pretty=oneline
 	指定查看日志条数 git log log -条数
@@ -33,6 +35,9 @@
 	状态恢复同时删除stash git stash pop
 	
 	从版本库中删除文件 git rm 文件名(删除后需提交)
+	从版本库中删除文件(不删除本地文件) git rm --cached 文件名(删除后需提交)
+	
+	更改文件名 git mv 原文件名 新文件名
 	
 	标签相关
 	当前提交打标签 git tag 标签名
@@ -78,12 +83,19 @@
 	git remote rm 远程库别名
 	创建分支并关联远程分支
 	git checkout -b 分支名 远程库/分支名
-	git checkout -b dev origin/dev
+	e.g git checkout -b dev origin/dev
 	设置本地库与远程库的连接
 	 git branch --set-upstream-to=远程库/分支名 本地分支名 (git branch --set-upstream-to 分支名 远程库/分支名)
-	 git branch --set-upstream-to=origin/dev dev
+	 e.g git branch --set-upstream-to=origin/dev dev
 	 变基操作(目前还不懂...)
 	 git rebase 
+	远程库的重命名
+	git remote rename 原远程库别名 新远程库别名
+	e.g git remote rename origin o
+	移除远程库
+	git remote rm 远程库别名	
+	e.g git remote rm origin	
+	
 	
 链接:  
 [文件忽略参考](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758404317281e54b6f5375640abbb11e67be4cd49e0000)
