@@ -120,9 +120,7 @@ destinationName			|string		| 消息目标地,即主题,作为发送消息时必�
 qos						|number		|消息的质量
 retained					|Boolean	|是否持久化
 duplicate					|Boolean	|只读,是否是重复消息
-名称|类型|描述
---|--|--|
-payload	|String\ArrayBuffer|消息内容
+
 ## 示例
 ```
     var host = '192.168.0.188',
