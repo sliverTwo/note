@@ -8,6 +8,7 @@
 7. [linux web版](https://github.com/instantbox/instantbox)
 8. [英语学习](https://github.com/yujiangshui/A-Programmers-Guide-to-English)
 9. [ 互联网 Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java/)
+10. [idea教程](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
 # 前端
 1. [Layx：仿真 Windows 界面的 Web 弹窗组件](https://gitee.com/monksoul/LayX)
 
