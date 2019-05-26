@@ -21,6 +21,9 @@ sIf4j-jcl.jar|jcl(log4j,jkd14,simpleLog)
 log4j-slf4j-impl|log4j2
 logback-classic|logback
 
+### log4j日志配置
+
 
 ### 参考
 1. [10分钟搞定--混乱的 Java 日志体系](https://www.jianshu.com/p/39ced06944a2)
+2. [别在 Java 代码里乱打日志了，这才是正确的打日志姿势！](https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&mid=2247486981&idx=1&sn=242a56c7b2c8bd51c0a9d4436c1e10fa&chksm=fa4971b4cd3ef8a2257e8f5a9a44272f59e84496bc7feaf29c8907f04d9dbb0ab44d1072cbfc&scene=0&xtrack=1&key=0a01442925ed28a11e3149a9868c46b0aa31354c25ae810fbfa0efb2c2e4a62a9c28aebdb83a29c24f3183a8272e681e4582cbd396ab8a5264ffd7ee8dd542fbee206bacb1189f9c02e4febc23a7c84c&ascene=1&uin=MTQwNzUzNTMxMw%3D%3D&devicetype=Windows+10&version=6206081f&lang=zh_CN&pass_ticket=RKdD%2FvurgSTpg9pMivMkZ9MwhPvV2eAS0pOUJrgm35UFr1xJ68V3UF8odrz7KU7u)
