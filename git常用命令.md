@@ -1,5 +1,4 @@
 ## git常用命令
-
 1. 初始化 git init
 2. 提交至暂存区  git add 文件或目录名 eg：git add readme.txt git add .
 3. 提交新的版本 git commit (其作用是将暂存区的数据提交到版本库,所以在执行此命令前先执行git add) -m 注释
@@ -11,7 +10,6 @@
 9. 查看状态 git status
 
 ### 版本管理相关
-
 1. 版本回退 git reset --hard 版本号(git log查看到的那串字符) 
 2. 回退到上个版本 git reset --hard HEAD^ (HEAD当前版本,HEAD^上个版本 HEAD^^上两个版本 HEAD~2上两个版本)
 3. 查看命令日志 git reflog(e.g 用于错误回退版本后查找会退前的版本号)
@@ -19,7 +17,6 @@
 5. 撤销暂缓区的数据:git reset HEAD 文件名
 
 ### 分支管理相关
-
 1. 创建分支 git branch 分支名称
 2. 查看当前分支 git branch
 3. 切换分支 git checkout 分支名称
@@ -48,19 +45,19 @@
 5. 带说明的标签 git tag -a 标签名 -m 说明 [提交id]
 6. 删除标签 git tag -d 标签名
 7. 推送标签导远程服务器 git push 远程库别名 标签名 
-8. 一次性全部推送  git push 标签名 --tags
+8. 一次性全部推送  git push --tags
 9. 删除远程标签 先删除本地标签 git tag -de 标签名 然后执行 git push 远程库别名 :refs/tags/标签名
-10. 个性化配置
-11. 配置全局用户名 git config --global user.name "你的名字"
-12. 配置全局邮箱 git config --global user.email "你的邮箱"
-13. 开启颜色对比 git config --global color.ui true
-14. 别名设置 git config --global alias 别名 命令名
-15. 文件忽略相关
-16. 强行添加忽略清单上的文件 git  add -f 文件
-17. 查看忽略规则 git check-ignore -v 文件
+
+###  个性化配置
+1. 配置全局用户名 git config --global user.name "你的名字"
+2. 配置全局邮箱 git config --global user.email "你的邮箱"
+3. 开启颜色对比 git config --global color.ui true
+4. 别名设置 git config --global alias 别名 命令名
+5. 文件忽略相关
+6. 强行添加忽略清单上的文件 git  add -f 文件
+7. 查看忽略规则 git check-ignore -v 文件
 
 ## git一些概念
-
 1. 项目配置文件路径 .git/config
 2. 工作区（Working Directory）git当前工作目录
 3. 版本库（Repository） 隐藏的.git目录
@@ -104,7 +101,7 @@
 	
 ## 链接:  
 1. [文件忽略参考](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758404317281e54b6f5375640abbb11e67be4cd49e0000)
-2. [密钥使用参考链接](参考: [廖雪峰的教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000))
+2. [密钥使用参考链接](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000)
 3. [git服务器搭建](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137583770360579bc4b458f044ce7afed3df579123eca000)
 4. [廖雪峰的git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)  
 5. [git使用说明书](https://git-scm.com/book/zh/v2)
