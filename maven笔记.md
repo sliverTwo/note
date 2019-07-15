@@ -1,6 +1,7 @@
 ## 安装jar包到本地
 mvn install:install-file -Dfile=D:/taobao-sdk-java-auto-20160607.jar -DgroupId=com.ganshane.specs -DartifactId=taobao-sdk-java-auto-20160607 -Dversion=1.0.0 -Dpackaging=jar
-## 
+## 指定字符编码
+-Dfile.encoding=UTF-8
 ## 插件
 ```
 	<!-- 排除指定的文件 -->
