@@ -105,3 +105,4 @@
 3. [git服务器搭建](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137583770360579bc4b458f044ce7afed3df579123eca000)
 4. [廖雪峰的git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)  
 5. [git使用说明书](https://git-scm.com/book/zh/v2)
+6. [Git从入门到放不下](https://mp.weixin.qq.com/s?__biz=MzU2MTI4MjI0MQ==&mid=2247486978&idx=1&sn=e65b25b6fcaa5bac230335f92481145c&chksm=fc7a63accb0deaba8ce67e723a8b5ffda7326c7e692b9d086d2988fece49b0a048476c62fd5f&mpshare=1&scene=1&srcid=&sharer_sharetime=1564912267355&sharer_shareid=e3504e1944eb3dd430f519b6bb0b06d7&key=1dba5b91472eb4eac37c405d26d405298b97a334519bcb25a6adc1bcb3e41229d30a721cc5e7c159dbdf7b1b2972d96b980aee3adca05f432e872b0a671d1742621284e46c890f1d1197122da46df906&ascene=1&uin=MTQwNzUzNTMxMw%3D%3D&devicetype=Windows+10&version=62060844&lang=en&pass_ticket=HZkK25BolGK8G4B%2FlI9TzKEAKtQrt%2FHMYeTR%2B2u2Bfu89t7bOzQNspmi9f0Ey2An)
