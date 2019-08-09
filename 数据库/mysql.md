@@ -33,5 +33,9 @@
 8. 删除或注释 skip-grant-tables
 9. 重启mysql service mysql restart
 
+### 修改group_concat函数的长度限制
+1. SET GLOBAL group_concat_max_len=10240;
+2. SET SESSION group_concat_max_len=10240;
+
 ### 参考链接
 [mysql安装](https://www.cnblogs.com/lmh2072005/p/5656392.html)

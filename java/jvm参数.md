@@ -1,0 +1,2 @@
+## 参考文档
+1. [jvm 的那些设置参数你都知道吗](https://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=2651484380&idx=1&sn=6ed136984146362b8f94b7a837af3795&chksm=bd251ca38a5295b500641388ce30e15c0fbdef8af18ec96d3a2ca0216bda08978bcd2d643db6&scene=0&xtrack=1&key=015970e88da85a708ace22eb61724692cb62ab216ca4a21a197c928d348c0cf11d324eb21d1d90197dd7ad88c0a3e05baa6cb671c026ab04388b2c52a636bdcd0a5dea63c74ea0d2ac9cfcce6742cf53&ascene=1&uin=MTQwNzUzNTMxMw%3D%3D&devicetype=Windows+10&version=62060833&lang=zh_CN&pass_ticket=1Boi8Z9txLcCREb87iYN%2Fdr6abryKSYxPAzmgrCKot28mVnLaxVL42B7fArFJQve)

@@ -116,3 +116,14 @@ ps aux |grep 关键字
 
 ### 参考
 1. [简述TCP的三次握手过程](https://www.cnblogs.com/Qing-840/p/9283367.html)
+
+## 环境变量
+1. 查看环境变量 env
+2. 编辑profile
+
+## centos ip地址修改
+1. vi  /etc/sysconfig/network-scripts/ifcfg-ens33
+2. 重启网卡 service network restart
+3. 测试网络 ping www.baidu.com
+### 参考
+1. [centos7永久修改ip地址](https://blog.csdn.net/chianing_han/article/details/81635602)
