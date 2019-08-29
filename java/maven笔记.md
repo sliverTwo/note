@@ -37,3 +37,20 @@ mvn install:install-file -Dfile=D:/taobao-sdk-java-auto-20160607.jar -DgroupId=c
 		</executions>
 	</plugin>
 ```
+
+## 配置私服
+```
+	/* 配置用户名密码 */
+	<server>
+	    <id>iipcloud</id>
+	    <username>xx</username>
+	    <password>xxxx</password>
+	</server>
+	/* 配置仓库 */
+	<mirror>
+	      <id>iipcloud</id>
+	      <name>iipcloud maven</name>
+	      <url>http://45.40.205.99:10086/repository/iip-group/</url>
+	      <mirrorOf>central</mirrorOf>       
+	</mirror>
+```
