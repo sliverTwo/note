@@ -50,7 +50,7 @@ ps aux |grep 关键字
 3. 对外开发端口
 ```
     添加指定需要开放的端口：
-    firewall-cmd --add-port=8/tcp --permanent
+    firewall-cmd --add-port=3306/tcp --permanent
     重载入添加的端口：
     firewall-cmd --reload
     查询指定端口是否开启成功：
@@ -127,3 +127,6 @@ ps aux |grep 关键字
 3. 测试网络 ping www.baidu.com
 ### 参考
 1. [centos7永久修改ip地址](https://blog.csdn.net/chianing_han/article/details/81635602)
+
+## 查看版本信息
+1. 
